@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #330066;
+  text-decoration: none;
+  /* Loại bỏ gạch chân mặc định của liên kết */
+}
+
+/* Màu khi di chuột qua liên kết */
+a:hover {
+  color: #91989c;
+}
+
+/* Màu khi liên kết đã được truy cập */
+a:visited {
+  color: #330066;
+}
+
+/* Màu cho liên kết khi bị nhấn */
+a:active {
+  color: #ff0000;
+}
